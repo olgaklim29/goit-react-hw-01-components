@@ -1,0 +1,46 @@
+.Profile {
+  background-color: rgb(203, 240, 204);
+  width: 400px;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.Profile__description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Profile__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: darkgrey;
+}
+
+.Profile__name {
+  font-size: 24px;
+}
+
+.Profile__tag,
+.Profile__location,
+.Profile__label {
+  color: dimgrey;
+}
+
+.Profile__quantity {
+  font-size: 20px;
+}
+
+.Profile__stats {
+  background-color: rgb(250, 239, 239);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin: 0;
+}
+.Profile__item {
+  display: flex;
+  flex-direction: column;
+}
